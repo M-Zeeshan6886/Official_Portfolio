@@ -3,18 +3,18 @@ import "./Socialsbar.scss";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { DiGithubFull } from "react-icons/di";
 import { line } from "../../../assets";
-import {Link} from "react-router-dom"
+// import {Link} from "react-dom"
  
 const Socialsbar = () => {
   return (
     <>
       <div className="sidebar-container-left">
         <div className="sidebar-container-left-content">
-          <Link to="https://github.com/M-Zeeshan6886">
+          {/* <Link to="https://github.com/M-Zeeshan6886">
            
+          </Link> */}
           <DiGithubFull className="git" />
-          </Link>
-          
+
           <FaLinkedin className="linkedin" />
           <FaTwitter className="twiter" />
           <img src={line} alt="Line" className="line" />

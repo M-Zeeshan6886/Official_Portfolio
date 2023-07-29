@@ -30,7 +30,7 @@ const Home = () => {
               TO SEEK A CHALLENGING POSITION IN A PROGRESSIVE and GROWING ORGANIZATION WHERE. I MAY B TO UTILIZE MY SKILLS AND ABILITY WITH AN OPPORTUNITY OF GROWTH, ADVANCEMENT & ENHANCEMENT OF MY KNOWLEDGE.
                 {/* <span>Read More</span> */}
               </p>
-              <button>Download CV</button>
+              <a href="#" target="_blank">Download CV</a>
             </div>
             <img src={Aicon} alt="ArrowIcon"/>
           </div>
@@ -119,7 +119,7 @@ Developed expertise in JavaScript and utilized it in various projects.          
               }}
               validate={{
                 email: '',
-                name:'',
+                name: ''
               }}
             >
               {(formik) => (
@@ -142,24 +142,8 @@ Developed expertise in JavaScript and utilized it in various projects.          
               )}
             </Formik>
             <div className="contact-container-content-right-inputfield">
-              <label>What service are you interested in</label>
-              <select required>
-                <option value="" disabled selected hidden>
-                  Select project type
-                </option>
-                <option>Mobile App</option>
-                <option>Websites</option>
-              </select>
-              <label>Budget</label>
-              <select required>
-                <option value="" disabled selected hidden>
-                  Select project budget
-                </option>
-                <option>Dollar</option>
-                <option>PKR</option>
-              </select>
               <label for="textarea">Message</label>
-              <textarea id="textarea"></textarea>
+              <textarea id="textarea" required ></textarea>
               <button>Submit</button>
             </div>
           </div>

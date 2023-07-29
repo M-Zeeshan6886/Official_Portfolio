@@ -1,5 +1,5 @@
 import Aicon from './arrowicon.svg';
-import Pfimg from './pfImg.png';
+import Pfimg from './pfImg2.jpeg';
 import Git from './git.png';
 import line from './Line.svg';
 import adeelBuxImg from "./adeel-bux.png";
