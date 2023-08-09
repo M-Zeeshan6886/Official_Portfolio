@@ -13,10 +13,16 @@ const Socialsbar = () => {
           {/* <Link to="https://github.com/M-Zeeshan6886">
            
           </Link> */}
+          <a href="https://github.com/M-Zeeshan6886 " target="_blank">
           <DiGithubFull className="git" />
-
+          </a>
+          <a href="https://www.linkedin.com/in/zeeshan-zafar-b61262200/" target="_blank">
           <FaLinkedin className="linkedin" />
+          </a>
+          <a href="https://twitter.com/home" target="_blank">
           <FaTwitter className="twiter" />
+          </a>
+
           <img src={line} alt="Line" className="line" />
         </div>
       </div>

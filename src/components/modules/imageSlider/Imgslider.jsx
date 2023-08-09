@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {adeelBuxImg,jugaHealthImg,cookImg,vivaWellImg,bostomImg} from '../../../assets';
+import {adeelBuxImg,jugaHealthImg,signatureImg,adminImg,bostomImg} from '../../../assets';
 
 
 function BuiltItemContainer() {
@@ -13,11 +13,11 @@ function BuiltItemContainer() {
       case "juga-health.png":
         setImage(jugaHealthImg);
         break;
-      case "cook.png":
-        setImage(cookImg);
+      case "Signature.jpg ":
+        setImage(signatureImg);
         break;
-      case "vivawell.png":
-        setImage(vivaWellImg);
+      case "adminpanel.png":
+        setImage( adminImg);
         break;
       case "bostom.png":
         setImage(bostomImg);
@@ -36,13 +36,13 @@ function BuiltItemContainer() {
             01 ADEEL BUX
           </button>
           <button onClick={() => changeImage("juga-health.png")}>
-            02 JUGA HEALTH
+            02 ELITE OFFICIAL SITE
           </button>
-          <button onClick={() => changeImage("cook.png")}>
-            03 COOK IN THE NOOK
+          <button onClick={() => changeImage("Signature.jpg")}>
+            03 SIGNATURE WEBSITE
           </button>
-          <button onClick={() => changeImage("vivawell.png")}>
-            04 VIVA WELL
+          <button onClick={() => changeImage("adminpanel.png")}>
+            04 ADMIN PANEL
           </button>
           <button onClick={() => changeImage("bostom.png")}>05 BOSTOM</button>
         </div>

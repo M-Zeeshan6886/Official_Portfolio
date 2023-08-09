@@ -30,15 +30,17 @@ const Home = () => {
               TO SEEK A CHALLENGING POSITION IN A PROGRESSIVE and GROWING ORGANIZATION WHERE. I MAY B TO UTILIZE MY SKILLS AND ABILITY WITH AN OPPORTUNITY OF GROWTH, ADVANCEMENT & ENHANCEMENT OF MY KNOWLEDGE.
                 {/* <span>Read More</span> */}
               </p>
-              <a href="#" target="_blank">Download CV</a>
+              <a href="./RESUME-ZE.pdf" target="_blank">Download CV</a>
             </div>
+            <a href="#about_id">
             <img src={Aicon} alt="ArrowIcon"/>
+            </a>
           </div>
           <div className="header-container-content-right">
             <div className="header-container-content-right-menu">
-              <button>01 About</button>
-              <button>02Things I Built</button>
-              <button>03 Contact</button>
+              <a href="#about_id">01 About</a>
+              <a href="#built_id">02Things I Built</a>
+              <a href="#contact_id">03 Contact</a>
             </div>
           </div>
         </div>
@@ -46,7 +48,7 @@ const Home = () => {
       <div className="about-container">
         <div className="about-container-content">
           <div className="about-container-content-left">
-            <h1>About</h1>
+            <h1 id="about_id">About</h1>
           </div>
           <div className="about-container-content-right">
             <hr />
@@ -91,7 +93,7 @@ Developed expertise in JavaScript and utilized it in various projects.          
       <div className="built-container">
         <div className="built-container-content">
           <div className="built-container-content-left">
-            <h1>Thisngs I Built</h1>
+            <h1 id="built_id">Things I Built</h1>
           </div>
           <div className="built-container-content-right">
             <hr />
@@ -99,13 +101,15 @@ Developed expertise in JavaScript and utilized it in various projects.          
         </div>
       </div>
       <BuiltItemContainer />
-      <div className="contact-container">
+      <div className="contact-container" id="contact_id">
         <div className="contact-container-content">
           <div className="contact-container-content-left">
             <h1>Let's Talk</h1>
             <p>Get in touch with and together let’s make Internet better.</p>
             <h4>Email</h4>
             <p>mzxeeshuu@gmail.com</p>
+            <h4>Whats App</h4>
+            <p>+92308 5433524</p>
             <h4>Socials</h4>
             <button>Instagram</button>
             <button>Twitter</button>
