@@ -10,10 +10,10 @@ function BuiltItemContainer() {
       case "adeel-bux.png":
         setImage(adeelBuxImg);
         break;
-      case "juga-health.png":
+      case "elite.png":
         setImage(jugaHealthImg);
         break;
-      case "Signature.jpg ":
+      case "Signature1.png":
         setImage(signatureImg);
         break;
       case "adminpanel.png":
@@ -35,10 +35,10 @@ function BuiltItemContainer() {
           <button onClick={() => changeImage("adeel-bux.png")}>
             01 ADEEL BUX
           </button>
-          <button onClick={() => changeImage("juga-health.png")}>
+          <button onClick={() => changeImage("elite.png")}>
             02 ELITE OFFICIAL SITE
           </button>
-          <button onClick={() => changeImage("Signature.jpg")}>
+          <button onClick={() => changeImage("Signature1.png")}>
             03 SIGNATURE WEBSITE
           </button>
           <button onClick={() => changeImage("adminpanel.png")}>
