@@ -1,6 +1,15 @@
 import React, { useState } from "react";
-import {adeelBuxImg,jugaHealthImg,signatureImg,adminImg,bostomImg} from '../../../assets';
-
+import {
+  adeelBuxImg,
+  signatureImg,
+  adminImg,
+  bostomImg,
+  RugPortfolio,
+  AIPortfolio,
+  eliteImg,
+  caddiePortfolio,
+  periortfolio,
+} from "../../../assets";
 
 function BuiltItemContainer() {
   const [image, setImage] = useState(adeelBuxImg);
@@ -10,14 +19,26 @@ function BuiltItemContainer() {
       case "adeel-bux.png":
         setImage(adeelBuxImg);
         break;
+      case "RugbazaarPortfolio":
+        setImage(RugPortfolio);
+        break;
+      case "caddiePortfolio":
+        setImage(caddiePortfolio);
+        break;
+      case "AIPortfolio":
+        setImage(AIPortfolio);
+        break;
+      case "periPortfolio":
+        setImage(periortfolio);
+        break;
       case "elite.png":
-        setImage(jugaHealthImg);
+        setImage(eliteImg);
         break;
       case "Signature1.png":
         setImage(signatureImg);
         break;
       case "adminpanel.png":
-        setImage( adminImg);
+        setImage(adminImg);
         break;
       case "bostom.png":
         setImage(bostomImg);
@@ -35,16 +56,28 @@ function BuiltItemContainer() {
           <button onClick={() => changeImage("adeel-bux.png")}>
             01 ADEEL BUX
           </button>
-          <button onClick={() => changeImage("elite.png")}>
-            02 ELITE OFFICIAL SITE
+          <button onClick={() => changeImage("RugbazaarPortfolio")}>
+            02 RUG BAZAAR
+          </button>
+          <button onClick={() => changeImage("caddiePortfolio")}>
+            03 SAND CADDIE
+          </button>
+          <button onClick={() => changeImage("AIPortfolio")}>
+            04 AI CHATBOT
+          </button>
+          <button onClick={() => changeImage("periPortfolio")}>
+            05 PERI STUDIOS SITE
           </button>
           <button onClick={() => changeImage("Signature1.png")}>
-            03 SIGNATURE WEBSITE
+            06 SIGNATURE WEBSITE
           </button>
           <button onClick={() => changeImage("adminpanel.png")}>
-            04 ADMIN PANEL
+            07 ADMIN PANEL
           </button>
-          <button onClick={() => changeImage("bostom.png")}>05 BOSTOM</button>
+          <button onClick={() => changeImage("bostom.png")}>08 BOSTOM</button>
+          <button onClick={() => changeImage("elite.png")}>
+            09 ELITE OFFICIAL SITE
+          </button>
         </div>
         <div className="builtItem-container-content-right">
           <img src={image} alt="Project preview" className="image" />

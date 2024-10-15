@@ -12,8 +12,6 @@ const Home = () => {
     name: Yup.string().required("name is Required"),
   });
 
-
-
   return (
     <>
       <div className="header-container">
@@ -23,17 +21,27 @@ const Home = () => {
             <div className="header-container-content-left-pdata">
               <pre>Hi my name is </pre>
               <h1>Muhammad Zeeshan Zafar.</h1>
-              <h2>I am a Front-End Developer.</h2>
+              <h2>I am a Full Stack Developer.</h2>
               <p>
-                I am Zeeshan Zafer working as a full stack frontend developer. I have expertise in all the main stacks which are supportive of frontends like HTML CSS Bootstrap, ReactJS, and Javascript. Also, my aim is to get expertise in all hybrid application development as well. I am highly passionate about learning more skills and adding value to the IT industry.
-              <br />
-              TO SEEK A CHALLENGING POSITION IN A PROGRESSIVE and GROWING ORGANIZATION WHERE. I MAY B TO UTILIZE MY SKILLS AND ABILITY WITH AN OPPORTUNITY OF GROWTH, ADVANCEMENT & ENHANCEMENT OF MY KNOWLEDGE.
+                I am a Passionate Developer with Data Enthusiasm, leveraging
+                over two years of experience to drive strategic decisions and
+                business growth. My expertise spans SQL, Power BI, API
+                integration, and full-stack development, with a strong focus on
+                front-end technologies such as HTML, CSS, Bootstrap, ReactJS,
+                and JavaScript, as well as back-end development.
+                <br />I am continuously expanding my skill set, particularly in
+                hybrid application development, with a focus on building
+                scalable, data-driven solutions. My goal is to harness the power
+                of data and technology to deliver innovative, high-impact
+                solutions that drive business success.
                 {/* <span>Read More</span> */}
               </p>
-              <a href="./RESUME-ZE.pdf" target="_blank">Download CV</a>
+              <a href="./RESUME-ZE.pdf" target="_blank">
+                Download CV
+              </a>
             </div>
             <a href="#about_id">
-            <img src={Aicon} alt="ArrowIcon"/>
+              <img src={Aicon} alt="ArrowIcon" />
             </a>
           </div>
           <div className="header-container-content-right">
@@ -55,34 +63,64 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* 2 years of professional experience in Worked on front-end development
+      using React library, HTML, CSS, and Bootstrap. Developed expertise in
+      JavaScript and utilized it in various projects. Data analysis and
+      engineering using tools like SQL and Power BI to deliver insights that
+      support report making. Collaborated on live projects with cross-functional
+      teams, ensuring timely and budget-compliant, Delivery, and continuously
+      expanded my skill set by adapting to new technologies. Actively seeking
+      opportunities to further refine my data and development skills through
+      hands-on experience and live projects. */}
       <div className="aboutdata-container">
         <div className="aboutdata-container-content">
           <div className="aboutdata-container-content-left">
             <ul>
               <li>
-                <span>1.5 years </span>
-                of professional experience in Frontend Development || React JS || JavaScript || Bootstrap || Sass || HTML5 CSS3.
+                <span>2 years </span>
+                of professional experience in Data Analyst || Data Engineer ||
+                SQL || Power BI || Full Stack Developer || React JS ||
+                JavaScript || Bootstrap || Sass || HTML5 CSS3
+              </li>
+
+              <li>
+                <b> Full Stack Developer in Peri Studios (Persent)</b>
+                <br />
+                <br />
+                <b>Rug Bazaar (React E-Commerce Platform)</b>
+                <br />
+                <span>https://rugbazaar.co/</span>
+                <br />
+                <b>Rental Management Application (Sand Caddie)</b>
+                <br />
+                <span>https://sandcaddie.com/</span>
+                <br />
+                <b>Admin Panels (Multiple Projects)</b>
               </li>
               <li>
-               Front-end Developer, Elite IT Team (6 months)
+                <b> Full Stack Developer in CAS (1-6 Months)</b>
+                <br />
+                <br />
+                <b>AI Chatbot with Audio Play Feature</b>
+                <br />
+                <span>https://gregarious-daifuku-ed2ccf.netlify.app/</span>
+                <br />
+                <b>German Web Portfolio</b>
+                <br />
+                <b>Admin Panels (Multiple Projects)</b>
               </li>
               <li>
-               Worked on front-end development using React library, HTML, CSS, and Bootstrap.
+                <b> Internship in Elite IT Team (1-6 Months)</b>
+                <br />
+                <br />
+                <b>Elite IT Team Website</b>
+                <br />
+                <span>https://golden-haupia-84804e.netlify.app/</span>
+                <br />
+                <b>Signature Website Front End</b>
+                <br />
+                <b>Admin Panels (Multiple Projects)</b>
               </li>
-              <li>
-Developed expertise in JavaScript and utilized it in various projects.              </li>
-              <li>
-                Contributed to the team's success by developing and implementing high-quality front-end Solutions
-              </li>
-              <li>
-              Collaborated with team members on live projects, delivering projects on time and within budget.
-              </li>
-              <li>
-              Continuously learned and adapted to new technologies and tools to stay up-to-date in the industry.
-              </li>
-              <li>
-              Looking forward to having an opportunity in the practical field to polish my skills, learn new skills, and can work on live projects.              </li>
-              
             </ul>
           </div>
           <div className="aboutdata-container-content-right">
@@ -122,8 +160,8 @@ Developed expertise in JavaScript and utilized it in various projects.          
                 name: "",
               }}
               validate={{
-                email: '',
-                name: ''
+                email: "",
+                name: "",
               }}
             >
               {(formik) => (
@@ -147,7 +185,7 @@ Developed expertise in JavaScript and utilized it in various projects.          
             </Formik>
             <div className="contact-container-content-right-inputfield">
               <label for="textarea">Message</label>
-              <textarea id="textarea" required ></textarea>
+              <textarea id="textarea" required></textarea>
               <button>Submit</button>
             </div>
           </div>
